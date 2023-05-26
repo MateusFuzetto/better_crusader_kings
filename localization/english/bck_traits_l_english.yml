@@ -1,0 +1,49 @@
+﻿l_english:
+
+ #Raider
+ trait_raider:0 "Raider"
+ trait_raider_desc:0 "The Raider is a master of raiding, plundering and pillaging their neighbors."
+ trait_raider_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a master of raiding, plundering and pillaging [ROOT.GetCharacter.GetHerHis] neighbors."
+ trait_raider_special_effect:0 "With the raider trait you can [raid|E], regardless of [government|E] type\n"
+
+ #Champion
+ trait_champion:0 "Champion"
+ trait_champion_desc:0 "The champion is a master of tournaments, with countless victories."
+ trait_champion_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a master of tournaments, with incotables victories."
+
+ #Inquisitor
+ trait_inquisitor:0 "Inquisitor"
+ trait_inquisitor_desc:0 "The Inquisitor brings justice, uncovers truth, and protects the innocent with diligence and resolve."
+ trait_inquisitor_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is the protector of [ROOT.GetCharacter.GetFaith.GetNameNoTooltip],"
+
+ #Alchemist
+ trait_alchemist:0 "Alchemist"
+ trait_alchemist_desc:0 "The Alchemist is a master who transform things for the better"
+ trait_alchemist_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a master alchemist, and had found that nothing in this life can be offered without a kind of sacrifice."
+
+ #Alchemist
+ trait_bard:0 "Bard"
+ trait_bard_desc:0 "The bard is a mesmerizing troubadour with a voice that stirs hearts and tales that echo eternity."
+ trait_bard_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] is a wandering minstrel, strumming melodies and sharing tales, embracing freedom with every note."
+
+ #Traits Lifestyle Completion
+
+ #Erudite
+ trait_erudite:0 "Erudite"
+ trait_erudite_desc:0 "As someone who has spent their whole life learning, you’ve finally come to the truth of it all. There is no end to what can be learned of this world, but that’s precisely why you’ll never stop."
+
+ #Shadow
+ trait_shadow:0 "Shadow"
+ trait_shadow_desc:0 "With precision and foresight, you achieve undeniable results. Others may not even realize that you’re calling the shots. You understand the value of discretion and silence allowing you to hide in plain sight, yet you also know how making a show can distract a keen eye from your true intentions. You influence the influencers, manipulate the very foundations of the systems you inhabit, you perceive every piece on the board, every issue you face can be solved with the tug of one string or the cutting of another. Commoners and nobles alike attribute your work to acts of God or the woven patterns of fate, if only they knew."
+
+ #Emissary
+ trait_emissary:0 "Emissary"
+ trait_emissary_desc:0 "You’ve been to every court you could, you’ve spent time with noblemen, peasants, merchants, kings, within your land and without. The whole world is open to you."
+
+ #Veteran
+ trait_veteran:0 "Veteran"
+ trait_veteran_desc:0 "The battlefield isn’t something you’re afraid of, having spent almost your entire life there. Like an old friend, no matter how long it’s been, it’s as though you were never apart."
+
+ #Royal Steward
+ trait_royal_steward:0 "Royal steward"
+ trait_royal_steward_desc:0 "From the price of an egg to the entire economy of your kingdom, everywhere you could make a gold coin, you did. Your coffers are a river of gold that just won’t stop flowing."

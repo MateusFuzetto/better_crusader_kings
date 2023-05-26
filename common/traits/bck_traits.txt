@@ -1,0 +1,222 @@
+## LIFESTYLES BCK ###################################
+
+raider = {
+    category = lifestyle
+    name = trait_raider
+
+    martial = 3
+    prowess = 2
+    attacker_advantage = 5
+
+    flag = trait_enable_raiding_without_restrictions
+
+    ruler_designer_cost = 50
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_raider_desc
+            }
+            desc = trait_raider_character_desc
+        }
+    }
+}
+
+champion = {
+    category = lifestyle
+    name = trait_champion
+
+    martial = 2
+    negate_prowess_penalty_add = 10
+    prowess_per_prestige_level = 1
+    health = 0.25
+
+    ruler_designer_cost = 50
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_champion_desc
+            }
+            desc = trait_champion_character_desc
+        }
+    }
+}
+
+inquisitor = {
+    category = lifestyle
+    name = trait_inquisitor
+
+    stewardship = 1
+    martial = 2
+    zealot_opinion = 30
+    monthly_piety_gain_per_dread_mult = 0.01
+    holy_order_hire_cost_mult = -0.25
+
+    ruler_designer_cost = 50
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_inquisitor_desc
+            }
+            desc = trait_inquisitor_character_desc
+        }
+    }
+}
+
+alchemist = {
+    category = lifestyle
+    name = trait_alchemist
+
+    intrigue = 3
+    learning = 2
+    owned_hostile_scheme_success_chance_add = 10
+    health = 0.25
+
+    ruler_designer_cost = 50
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_alchemist_desc
+            }
+            desc = trait_alchemist_character_desc
+        }
+    }
+}
+
+bard = {
+    category = lifestyle
+    name = trait_bard
+
+    max_personal_schemes_add = 2
+    seduce_scheme_power_mult = 0.15
+    diplomacy_per_prestige_level = 1
+    attraction_opinion = 15
+
+    ruler_designer_cost = 50
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_bard_desc
+            }
+            desc = trait_bard_character_desc
+        }
+    }
+}
+
+## LIFESTYLES COMPLETION REWARD ###################################
+
+erudite = {
+    category = lifestyle
+    name = trait_erudite
+
+    learning = 6
+    fertility = 0.2
+    life_expectancy = 10
+    health = 0.2
+
+    minimum_age = 40
+
+    health = 0.2
+
+    general_opinion = 20
+
+    random_creation = 1
+
+    ruler_designer_cost = 275
+
+    shown_in_ruler_designer = yes
+}
+
+shadow = {
+    category = lifestyle
+
+    intrigue = 12
+    dread_baseline_add = 25
+    intimidated_vassal_tax_contribution_mult = 0.2
+    hostile_scheme_power_add = 20
+    general_opinion = 10
+
+    minimum_age = 40
+
+    random_creation = 1
+
+    ruler_designer_cost = 275
+
+    shown_in_ruler_designer = yes
+}
+
+emissary = {
+    category = lifestyle
+
+    diplomacy = 8
+    diplomatic_range_mult = 2
+    opinion_of_different_faith_liege = 20
+    direct_vassal_opinion = 10
+
+    minimum_age = 40
+
+    general_opinion = 15
+
+    random_creation = 1
+
+    ruler_designer_cost = 275
+
+    shown_in_ruler_designer = yes
+}
+
+veteran = {
+    category = lifestyle
+
+    martial = 6
+    prowess = 10
+    monthly_war_income_mult = 0.25
+    knight_limit = 8
+
+    minimum_age = 40
+
+    general_opinion = 20
+
+    random_creation = 1
+
+    ruler_designer_cost = 275
+
+    shown_in_ruler_designer = yes
+}
+
+royal_steward = {
+    category = lifestyle
+
+    stewardship = 8
+    monthly_income_mult = 0.2
+    vassal_tax_mult = 0.2
+    long_reign_bonus_mult = 0.4
+
+    minimum_age = 40
+
+    general_opinion = 20
+
+    random_creation = 1
+
+    ruler_designer_cost = 275
+
+    shown_in_ruler_designer = yes
+}

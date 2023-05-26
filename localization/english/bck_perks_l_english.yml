@@ -1,0 +1,62 @@
+﻿l_english:
+ #Raider Tree
+ raider_name:0 "Raider"
+ raider_perk_name:0 "Raider"
+
+ improved_ships_perk_name:0 "Improved Ships"
+ raiding_defenses_perk_name:0 "Raiding Defenses"
+ supply_for_long_raids_perk_name:0 "Supply For Long Raids"
+ swift_raiders_perk_name:0 "Swift Raiders"
+ savage_skirmishers_perk_name:0 "Savage Skirmishers"
+ savage_skirmishers_perk_description:0 "If your culture has the North Germanic heritage, unlock the Jomsviking Pirates man at arms"
+ hoarder_paradise_perk_name:0 "Hoarder's Paradise"
+ reign_of_terror_and_plunder_perk_name:0 "Reign of Terror and Plunder"
+
+ #Champion Tree
+ champion_name:0 "Champion"
+ champion_perk_name:0 "Champion"
+
+ means_to_travel_perk_name:0 "Means to Travel"
+ master_of_hunt_perk_name:0 "Master of Hunt"
+ master_of_fight_perk_name:0 "Master of Fight"
+ master_of_strategy_perk_name:0 "Master of Strategy"
+ glory_honor_perk_name:0 "Glory Honor"
+ army_trainning_perk_name:0 "Army Trainning"
+ personal_gain_perk_name:0 "Personal Gain"
+
+ #Inquisitor Tree
+ inquisitor_name:0 "Inquisitor"
+ inquisitor_perk_name:0 "Inquisitor"
+
+ one_faith_perk_name:0 "One Faith"
+ one_culture_perk_name:0 "One Culture"
+ blessed_pilgrimages_perk_name:0 "Blessed Pilgrimages"
+ holy_domain_perk_name:0 "Holy Domain"
+ blessed_walls_perk_name:0 "Blessed Walls"
+ donations_for_the_great_god_perk_name:0 "Donations for the gread God"
+ blessed_management_perk_name:0 "Blessed Management"
+
+# Alchemist Tree
+ alchemist_name:0 "Alchemist"
+ alchemist_perk_name:0 "Alchemist"
+
+ studing_potions_perk_name:0 "Studing Potions"
+ studing_herbs_perk_name:0 "Studing Herbs"
+ basic_alchemy_perk_name:0 "Basic Alchemy"
+ studing_poisons_perk_name:0 "Studing Poisons"
+ studing_poisons_perk_description:0 "Enables the decision to use poison on schemes"
+ herb_gardens_perk_name:0 "Herb Gardens"
+ the_secret_of_life_perk_name:0 "The Secret of Life"
+ making_fools_gold_perk_name:0 "Making fools' gold"
+
+ # Bard Tree
+ bard_name:0 "Bard"
+ bard_perk_name:0 "Bard"
+
+ harmonious_mind_perk_name:0 "Harmonious Mind"
+ warriors_rhapsody_perk_name:0 "Warrior's Rhapsody"
+ street_serenades_perk_name:0 "Street Serenades"
+ silver_tongue_perk_name:0 "Silver Tongue"
+ lyrical_subterfuge_perk_name:0 "Lyrical Subterfuge"
+ tales_of_the_world_perk_name:0 "Tales of the World"
+ fertility_blessing_perk_name:0 "Fertility Blessing

@@ -1,0 +1,5 @@
+on_faith_created = {
+	events = {
+		faith_creation_clean.001
+	}
+}

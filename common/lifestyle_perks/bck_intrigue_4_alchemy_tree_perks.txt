@@ -1,0 +1,114 @@
+studing_potions_perk = {
+	lifestyle = intrigue_lifestyle
+	tree = alchemist
+	position = { 0 0 }
+	icon = node_intrigue
+
+	auto_selection_weight = {
+		multiply = 0
+	}
+
+	character_modifier = {
+		owned_hostile_scheme_success_chance_add = 15
+		enemy_hostile_scheme_success_chance_add = -15
+	}
+}
+
+studing_herbs_perk = {
+	lifestyle = intrigue_lifestyle
+	tree = alchemist
+	position = { 2 0 }
+	icon = node_intrigue
+
+	auto_selection_weight = {
+		multiply = 0
+	}
+
+	character_modifier = {
+		negate_health_penalty_add = 0.5
+		enemy_hostile_scheme_success_chance_add = -10
+	}
+}
+
+basic_alchemy_perk = {
+	lifestyle = intrigue_lifestyle
+	tree = alchemist
+	position = { 1 1 }
+	icon = node_intrigue
+
+	parent = studing_herbs_perk
+	parent = studing_potions_perk
+
+	character_modifier = {
+		health = 0.25
+	}
+}
+
+studing_poisons_perk = {
+	lifestyle = intrigue_lifestyle
+	tree = alchemist
+	position = { 0 2 }
+	icon = node_intrigue
+
+	parent = basic_alchemy_perk
+
+	effect = {
+		custom_tooltip = studing_poisons_perk_description
+	}
+}
+
+
+herb_gardens_perk = {
+	lifestyle = intrigue_lifestyle
+	tree = alchemist
+	position = { 2 2 }
+	icon = node_intrigue
+
+	parent = basic_alchemy_perk
+
+	character_modifier = {
+		stress_gain_mult = -0.15
+		negate_health_penalty_add = 0.5
+	}
+}
+
+the_secret_of_life_perk = {
+	lifestyle = intrigue_lifestyle
+	tree = alchemist
+	position = { 1 3 }
+	icon = node_intrigue
+
+	parent = studing_poisons_perk
+	parent = herb_gardens_perk
+
+	character_modifier = {
+		life_expectancy = 3 # Adds +5 years to expected old age death
+		health = 0.25
+	}
+}
+
+making_fools_gold_perk = {
+	lifestyle = intrigue_lifestyle
+	tree = alchemist
+	position = { 1 4 }
+	icon = node_intrigue
+
+	parent = the_secret_of_life_perk
+
+	character_modifier = {
+		monthly_income_mult = 0.25
+	}
+}
+
+alchemist_perk = {
+	lifestyle = intrigue_lifestyle
+	tree = alchemist
+	position = { 1 5 }
+	icon = trait_alchemist
+
+	parent = making_fools_gold_perk
+
+	effect = {
+		add_trait_force_tooltip = alchemist
+	}
+}

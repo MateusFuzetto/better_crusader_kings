@@ -1,0 +1,35 @@
+base_modifier = {
+	monthly_diplomacy_lifestyle_xp_gain_mult = -0.2
+	monthly_intrigue_lifestyle_xp_gain_mult = -0.2
+	monthly_stewardship_lifestyle_xp_gain_mult = -0.2
+	monthly_martial_lifestyle_xp_gain_mult = -0.2
+	monthly_learning_lifestyle_xp_gain_mult = -0.2
+}
+
+diplomacy_modifier = {
+	monthly_diplomacy_lifestyle_xp_gain_mult = 0.025
+}
+
+intrigue_modifier = {
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.025
+	scheme_discovery_chance_mult = 0.01
+	owned_hostile_scheme_success_chance_add = 1
+}
+
+stewardship_modifier = {
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.025
+}
+
+martial_modifier = {
+	monthly_martial_lifestyle_xp_gain_mult = 0.025
+}
+
+prowess_modifier = {
+	monthly_martial_lifestyle_xp_gain_mult = 0.015
+}
+
+learning_modifier = {
+	monthly_piety = 0.1
+	monthly_learning_lifestyle_xp_gain_mult = 0.025
+}
+

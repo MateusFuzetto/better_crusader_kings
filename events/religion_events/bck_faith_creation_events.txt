@@ -1,0 +1,15 @@
+namespace = faith_creation_clean
+	
+faith_creation_clean.001 = {	
+	hidden = yes
+	
+	trigger = {	
+	   always = yes
+	}	
+	
+	immediate = {	
+		faith = {	
+			remove_doctrine = tenet_bck_empty_1
+		}	
+	}	
+}

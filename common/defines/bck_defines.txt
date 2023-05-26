@@ -1,0 +1,61 @@
+NCharacter = {
+    RANDOM_PERSONALITY_TRAITS_BASE = 3
+
+    BASE_FERTILITY = 0.4
+    BASE_HEALTH = 6.0
+
+    FOCUS_ADULT_COOLDOWN_MONTHS = 12
+
+    SKILL_SCALE_AGE = 20
+
+    MAX_COUNTIES_IN_REALM_AS_DUKE = 50
+
+    SKILL_LEVELS_VALUES = {
+        5 #poor
+        10 #avg
+        15 #good
+        20 #exc
+        25 #gen
+        30 #leg
+    }
+    SKILL_LEVELS_TEXTS = {
+        "SKILL_TERRIBLE"
+        "SKILL_POOR"
+        "SKILL_AVERAGE"
+        "SKILL_GOOD"
+        "SKILL_EXCELLENT"
+        "SKILL_GENIUS"
+        "SKILL_LEGEND"
+    }
+}
+
+NOldAge = {
+    LOWER_HEALTH_START_AGE = 30
+
+    DIE_HEALTH_TRESHOLD = 2.5
+}
+
+NCharacterOpinion = {
+    MAX_DUCHIES_BEFORE_PENALTY  = 3
+}
+
+NCulture = {
+    DEFAULT_MAX_TRADITIONS = 7
+}
+
+NDynasty = {
+    MAX_MONTHLY_PRESTIGE_GAIN_FROM_ALIVE_MEMBERS = 1000 # Cap the above number
+    MONTHLY_PRESTIGE_GAIN_MULT_FOR_VASSALS_OF_SAME_DYNASTY = 0.5	# Dynasty members who are vassal of below of someone of the same dynasty have their prestige contribution multiplied with this. 0 disables their prestige contribution entirely
+    MONTHLY_PRESTIGE_GAIN_MULT_FOR_VASSALS_OF_SAME_DYNASTY_SPOUSE = 0.25	# Dynasty members whose spouse are vassal of below of someone of the same dynasty have their prestige contribution multiplied with this. 0 disables their prestige contribution entirely
+
+    PERK_COST_BASE = 150
+    PERK_COST_MULTIPLIER = 300
+}
+
+NHolyOrder = {
+    NUM_LEVIES_BASE = 600
+    NUM_LEVIES_PER_HOLDING = 300
+
+    BASE_NUM_KNIGHTS = 3
+    EXTRA_KNIGHTS_PER_HOLDING = 1
+}

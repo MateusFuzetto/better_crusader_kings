@@ -1,0 +1,31 @@
+#TRAIT VALUES
+commander_trait_limit = 4
+childhood_personality_trait_gain_limit = 4 #Trigger in a compare modifier in child_personaluity.9999
+childhood_fourth_personality_trait_chance = 20 #Percentage in a random chance in child_personaluity.9999
+
+personality_trait_minimum = 3
+personality_trait_standard = 3
+personality_trait_limit = 4
+
+#SKILL RATINGS
+average_skill_rating = 14 #Tracks what we see as "typical". For use in duels, etc.
+
+low_skill_rating = 4
+mediocre_skill_rating = 9
+medium_skill_rating = 14
+decent_skill_rating = 19
+high_skill_rating = 24
+very_high_skill_rating = 29
+extremely_high_skill_rating = 30
+
+#TEMPLATE SKILLS
+
+guest_template_average_skill = 8
+
+terrible_skill_level = 4
+poor_skill_level = 9
+average_skill_level = 14
+good_skill_level = 19
+excellent_skill_level = 24
+genius_skill_level = 29
+legend_skill_level = 30

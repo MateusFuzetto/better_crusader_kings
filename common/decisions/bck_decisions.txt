@@ -1,0 +1,433 @@
+use_poison_in_murder_decision = {
+    ai_check_interval = 0
+    picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
+
+    sort_order = 81
+
+    desc = use_poison_in_murder_decision_desc
+
+    selection_tooltip = use_poison_in_murder_decision_tooltip
+
+    cost = {
+        gold = 100
+    }
+
+    cooldown = { days = 365 }
+
+    is_shown = {
+        has_perk = studing_poisons_perk
+    }
+
+    is_valid_showing_failures_only = {
+        custom_description = {
+            text = "use_poison_in_murder_decision_missing_scheme"
+            any_scheme = {
+                count > 0
+            }
+        }
+    }
+
+    effect = {
+        if = {
+            limit = {
+                any_scheme = {
+                    count > 0
+                }
+            }
+            send_interface_toast = {
+                title = use_poison_in_murder_decision_msg
+                left_icon = root
+
+                every_scheme = {
+                    add_scheme_progress = 3
+                    add_scheme_murder_power = 0.15
+                }
+            }
+        }
+        else = {
+            custom_tooltip = use_poison_in_murder_decision_missing_scheme_effect
+        }
+    }
+
+    ai_potential = {
+        always = no
+    }
+
+    ai_will_do = {
+        base = 0
+    }
+}
+
+create_a_miracle_potion_decision = {
+    ai_check_interval = 0
+    picture = "gfx/interface/illustrations/decisions/decision_misc.dds"
+
+    sort_order = 80
+
+    desc = create_a_miracle_potion_decision_desc
+
+    selection_tooltip = create_a_miracle_potion_decision_tooltip
+
+    cost = {
+        gold = 1500
+    }
+
+    cooldown = { days = 3650 }
+
+    is_shown = {
+        has_trait_with_flag = illness
+        has_trait = alchemist
+    }
+
+    is_valid_showing_failures_only = {
+    }
+
+    effect = {
+        remove_trait = ill
+        remove_trait = pneumonic
+        remove_trait = great_pox
+        remove_trait = early_great_pox
+        remove_trait = lovers_pox
+        remove_trait = leper
+        remove_trait = gout_ridden
+        remove_trait = consumption
+        remove_trait = cancer
+        remove_trait = typhus
+        remove_trait = bubonic_plague
+        remove_trait = smallpox
+        remove_trait = sickly
+    }
+
+    ai_potential = {
+        always = no
+    }
+
+    ai_will_do = {
+        base = 0
+    }
+}
+
+become_emissary_decision = {
+    picture = "gfx/interface/illustrations/decisions/emissary.dds"
+    major = yes
+    ai_check_interval = 1
+    ai_goal = yes
+
+    is_valid = {
+        OR = {
+            AND = {
+                has_trait = diplomat
+                has_trait = august
+            }
+            AND = {
+                has_trait = diplomat
+                has_trait = family_first
+            }
+            AND = {
+                has_trait = diplomat
+                has_trait = champion
+            }
+            AND = {
+                has_trait = august
+                has_trait = family_first
+            }
+            AND = {
+                has_trait = august
+                has_trait = champion
+            }
+            AND = {
+                has_trait = family_first
+                has_trait = champion
+            }
+        }
+        age >= 40
+    }
+
+    cost = {
+        gold = 150
+        prestige = 250
+    }
+
+    is_shown = {
+        OR = {
+            has_trait = diplomat
+            has_trait = august
+            has_trait = family_first
+            has_trait = champion
+        }
+        NOT = { has_trait = emissary }
+        age >= 40
+    }
+
+    effect = {
+        add_trait = emissary
+    }
+
+    ai_potential = {
+        always = yes
+    }
+
+    ai_will_do = {
+        base = 10000
+    }
+}
+
+become_veteran_decision = {
+    picture = "gfx/interface/illustrations/decisions/veteran.dds"
+    major = yes
+    ai_goal = yes
+    ai_check_interval = 1
+
+    is_valid = {
+        OR = {
+            AND = {
+                has_trait = gallant
+                has_trait = strategist
+            }
+            AND = {
+                has_trait = gallant
+                has_trait = overseer
+            }
+            AND = {
+                has_trait = gallant
+                has_trait = raider
+            }
+            AND = {
+                has_trait = strategist
+                has_trait = overseer
+            }
+            AND = {
+                has_trait = strategist
+                has_trait = raider
+            }
+            AND = {
+                has_trait = overseer
+                has_trait = raider
+            }
+        }
+        age >= 40
+    }
+
+    cost = {
+        gold = 150
+        prestige = 250
+    }
+
+    is_shown = {
+        OR = {
+            has_trait = gallant
+            has_trait = strategist
+            has_trait = overseer
+            has_trait = raider
+        }
+        NOT = { has_trait = veteran }
+        age >= 40
+    }
+
+    effect = {
+        add_trait = veteran
+    }
+
+    ai_potential = {
+        always = yes
+    }
+
+    ai_will_do = {
+        base = 10000
+    }
+}
+
+become_royal_steward_decision = {
+    picture = "gfx/interface/illustrations/decisions/royal_steward.dds"
+    major = yes
+    ai_goal = yes
+    ai_check_interval = 1
+
+    is_valid = {
+        OR = {
+            AND = {
+                has_trait = avaricious
+                has_trait = administrator
+            }
+            AND = {
+                has_trait = avaricious
+                has_trait = architect
+            }
+            AND = {
+                has_trait = avaricious
+                has_trait = inquisitor
+            }
+            AND = {
+                has_trait = administrator
+                has_trait = architect
+            }
+            AND = {
+                has_trait = administrator
+                has_trait = inquisitor
+            }
+            AND = {
+                has_trait = avaricious
+                has_trait = inquisitor
+            }
+        }
+        age >= 40
+    }
+
+    cost = {
+        gold = 150
+        prestige = 250
+    }
+
+    is_shown = {
+        OR = {
+            has_trait = avaricious
+            has_trait = administrator
+            has_trait = architect
+            has_trait = inquisitor
+        }
+        NOT = { has_trait = royal_steward }
+        age >= 40
+    }
+
+    effect = {
+        add_trait = royal_steward
+    }
+
+    ai_potential = {
+        always = yes
+    }
+
+    ai_will_do = {
+        base = 10000
+    }
+}
+
+become_shadow_decision = {
+    picture = "gfx/interface/illustrations/decisions/shadow.dds"
+    major = yes
+    ai_goal = yes
+    ai_check_interval = 1
+
+    is_valid = {
+        OR = {
+            AND = {
+                has_trait = schemer
+                has_trait = seducer
+            }
+            AND = {
+                has_trait = schemer
+                has_trait = torturer
+            }
+            AND = {
+                has_trait = schemer
+                has_trait = alchemist
+            }
+            AND = {
+                has_trait = seducer
+                has_trait = torturer
+            }
+            AND = {
+                has_trait = seducer
+                has_trait = alchemist
+            }
+            AND = {
+                has_trait = torturer
+                has_trait = alchemist
+            }
+        }
+        age >= 40
+    }
+
+    cost = {
+        gold = 150
+        prestige = 250
+    }
+
+    is_shown = {
+        OR = {
+            has_trait = schemer
+            has_trait = seducer
+            has_trait = torturer
+            has_trait = alchemist
+        }
+        NOT = { has_trait = shadow }
+        age >= 40
+    }
+
+    effect = {
+        add_trait = shadow
+    }
+
+    ai_potential = {
+        always = yes
+    }
+
+    ai_will_do = {
+        base = 10000
+    }
+}
+
+became_erudite_decision = {
+    picture = "gfx/interface/illustrations/decisions/erudite.dds"
+    major = yes
+    ai_check_interval = 1
+    ai_goal = yes
+
+    is_valid = {
+        OR = {
+            AND = {
+                has_trait = scholar
+                has_trait = theologian
+            }
+            AND = {
+                has_trait = scholar
+                has_trait = whole_of_body
+            }
+            AND = {
+                has_trait = scholar
+                has_trait = bard
+            }
+            AND = {
+                has_trait = theologian
+                has_trait = whole_of_body
+            }
+            AND = {
+                has_trait = theologian
+                has_trait = bard
+            }
+            AND = {
+                has_trait = whole_of_body
+                has_trait = bard
+            }
+        }
+        age >= 40
+    }
+
+    cost = {
+        gold = 150
+        prestige = 250
+    }
+
+    is_shown = {
+        OR = {
+            has_trait = whole_of_body
+            has_trait = scholar
+            has_trait = theologian
+            has_trait = bard
+        }
+        NOT = { has_trait = erudite }
+        age >= 40
+    }
+
+    effect = {
+        add_trait = erudite
+    }
+
+    ai_potential = {
+        always = yes
+    }
+
+    ai_will_do = {
+        base = 1000
+    }
+}

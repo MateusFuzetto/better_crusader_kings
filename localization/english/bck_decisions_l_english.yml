@@ -1,0 +1,46 @@
+﻿l_english:
+ #Use Poison in Murder
+ use_poison_in_murder_decision:0 "Use Poison on Schemes"
+ use_poison_in_murder_decision_desc:0 "Why would i a wait? When i can slow kill then!"
+ use_poison_in_murder_decision_tooltip:0 "Buy some poisons and make some potions and use then on your schemes"
+ use_poison_in_murder_decision_confirm:0 "It's time to use what i had learned!"
+ use_poison_in_murder_decision_missing_scheme:0 "You need to have at least #V 1 #! active [scheme|E]"
+ use_poison_in_murder_decision_missing_scheme_effect:0 "Your active [schemes|E] will progress instantly and will have more murder chance"
+ use_poison_in_murder_decision_msg:0 "Your [schemes|E] progress!"
+
+ #Create a miracle potion
+ create_a_miracle_potion_decision:0 "Create a miracle potion"
+ create_a_miracle_potion_decision_desc:0 "It's time to put my knowledge in alchemy to save my own life"
+ create_a_miracle_potion_decision_tooltip:0 "Through a potion created by me, i will recover my healthy"
+ create_a_miracle_potion_decision_confirm:0 "It's time to be healthy again"
+
+ #Became an Erudite
+ became_erudite_decision:0 "Became an Erudite"
+ became_erudite_decision_desc:0 "As someone who has spent their whole life learning, you’ve finally come to the truth of it all. There is no end to what can be learned of this world, but that’s precisely why you’ll never stop."
+ became_erudite_decision_tooltip:0 "Let's see what I can do ..."
+ became_erudite_decision_confirm:0 "Let's start writing ..."
+
+ #Become a Veteran
+ become_veteran_decision:0 "Become a Veteran"
+ become_veteran_decision_desc:0 "The battlefield isn’t something you’re afraid of, having spent almost your entire life there. Like an old friend, no matter how long it’s been, it’s as though you were never apart."
+ become_veteran_decision_tooltip:0 "Let's see what I can do ..."
+ become_veteran_decision_confirm:0 "It's a knight duty ..."
+
+ #Become a Steward
+ become_royal_steward_decision:0 "Become a Steward"
+ become_royal_steward_decision_desc:0 "From the price of an egg to the entire economy of your kingdom, everywhere you could make a gold coin, you did. Your coffers are a river of gold that just won’t stop flowing."
+ become_royal_steward_decision_tooltip:0 "Let's see what I can do ..."
+ become_royal_steward_decision_confirm:0 "What should I buy ..."
+ 
+ #Become a Shadow
+ become_shadow_decision:0 "Become a Shadow"
+ become_shadow_decision_desc:0 "With precision and foresight, you achieve undeniable results. Others may not even realize that you’re calling the shots. You understand the value of discretion and silence allowing you to hide in plain sight, yet you also know how making a show can distract a keen eye from your true intentions. You influence the influencers, manipulate the very foundations of the systems you inhabit, you perceive every piece on the board, every issue you face can be solved with the tug of one string or the cutting of another. Commoners and nobles alike attribute your work to acts of God or the woven patterns of fate, if only they knew."
+ become_shadow_decision_tooltip:0 "Let's see what I can do ..."
+ become_shadow_decision_confirm:0 "Who's next ..."
+
+ #Become an Emissary
+ become_emissary_decision:0 "Become an Emissary"
+ become_emissary_decision_desc:0 "You’ve been to every court you could, you’ve spent time with noblemen, peasants, merchants, kings, within your land and without. The whole world is open to you."
+ become_emissary_decision_tooltip:0 "Let's see what I can do ..."
+ become_emissary_decision_confirm:0 "Let's visit something new ..."
+ 

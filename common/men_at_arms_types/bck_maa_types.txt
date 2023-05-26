@@ -1,0 +1,33 @@
+﻿jomsviking_raiders = {
+	type = skirmishers
+
+	can_recruit = {
+		has_perk = savage_skirmishers_perk
+		root.culture ?= {
+			has_cultural_pillar = heritage_north_germanic
+		}
+	}
+
+	damage = 30
+	toughness = 30
+	pursuit = 40
+	screen = 40
+
+	counters = {
+		heavy_infantry = 1
+		archers = 1
+	}
+
+	winter_bonus = {
+		normal_winter = { damage = 8 pursuit = 8 }
+		harsh_winter = { damage = 8 pursuit = 8 }
+	}
+
+	buy_cost = { gold = jomsviking_pirates_recruitment_cost }
+	low_maintenance_cost = { gold = jomsviking_pirates_low_maint_cost }
+	high_maintenance_cost = { gold = jomsviking_pirates_high_maint_cost }
+
+	stack = 100
+	ai_quality = { value = @cultural_maa_extra_ai_score }
+	icon = jomsviking_raiders
+}
