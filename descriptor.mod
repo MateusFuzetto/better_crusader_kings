@@ -6,4 +6,5 @@ tags={
 	"Character Interactions"
 }
 name="Better Crusader Kings"
-supported_version="1.9.0.4"
+supported_version="1.9.*"
+remote_file_id="2981116394"

@@ -27,7 +27,7 @@
 	low_maintenance_cost = { gold = jomsviking_pirates_low_maint_cost }
 	high_maintenance_cost = { gold = jomsviking_pirates_high_maint_cost }
 
-	stack = 100
+	stack = 75
 	ai_quality = { value = @cultural_maa_extra_ai_score }
 	icon = jomsviking_raiders
 }
