@@ -36,7 +36,7 @@ NOldAge = {
 }
 
 NCharacterOpinion = {
-    MAX_DUCHIES_BEFORE_PENALTY  = 3
+    MAX_DUCHIES_BEFORE_PENALTY = 3
 }
 
 NCulture = {

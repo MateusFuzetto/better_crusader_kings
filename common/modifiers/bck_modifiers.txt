@@ -8,6 +8,7 @@ base_modifier = {
 
 diplomacy_modifier = {
 	monthly_diplomacy_lifestyle_xp_gain_mult = 0.025
+	ai_amenity_target_baseline = 0.01
 }
 
 intrigue_modifier = {
@@ -17,10 +18,12 @@ intrigue_modifier = {
 }
 
 stewardship_modifier = {
+	character_travel_speed = 1
 	monthly_stewardship_lifestyle_xp_gain_mult = 0.025
 }
 
 martial_modifier = {
+	character_travel_safety = 1
 	monthly_martial_lifestyle_xp_gain_mult = 0.025
 }
 
