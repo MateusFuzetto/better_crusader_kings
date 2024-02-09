@@ -7,32 +7,32 @@ base_modifier = {
 }
 
 diplomacy_modifier = {
-	monthly_diplomacy_lifestyle_xp_gain_mult = 0.025
+	monthly_diplomacy_lifestyle_xp_gain_mult = 0.03
 	ai_amenity_target_baseline = 0.01
 }
 
 intrigue_modifier = {
-	monthly_intrigue_lifestyle_xp_gain_mult = 0.025
+	monthly_intrigue_lifestyle_xp_gain_mult = 0.03
 	scheme_discovery_chance_mult = 0.01
 	owned_hostile_scheme_success_chance_add = 1
 }
 
 stewardship_modifier = {
 	character_travel_speed = 1
-	monthly_stewardship_lifestyle_xp_gain_mult = 0.025
+	monthly_stewardship_lifestyle_xp_gain_mult = 0.03
 }
 
 martial_modifier = {
 	character_travel_safety = 1
-	monthly_martial_lifestyle_xp_gain_mult = 0.025
+	monthly_martial_lifestyle_xp_gain_mult = 0.03
 }
 
 prowess_modifier = {
-	monthly_martial_lifestyle_xp_gain_mult = 0.015
+	monthly_martial_lifestyle_xp_gain_mult = 0.02
 }
 
 learning_modifier = {
 	monthly_piety = 0.1
-	monthly_learning_lifestyle_xp_gain_mult = 0.025
+	monthly_learning_lifestyle_xp_gain_mult = 0.03
 }
 

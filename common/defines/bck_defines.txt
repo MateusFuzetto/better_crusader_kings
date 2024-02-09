@@ -8,8 +8,6 @@ NCharacter = {
 
     SKILL_SCALE_AGE = 20
 
-    MAX_COUNTIES_IN_REALM_AS_DUKE = 50
-
     SKILL_LEVELS_VALUES = {
         5 #poor
         10 #avg
@@ -30,13 +28,14 @@ NCharacter = {
 }
 
 NOldAge = {
-    LOWER_HEALTH_START_AGE = 30
+    LOWER_HEALTH_START_AGE = 40
 
     DIE_HEALTH_TRESHOLD = 2.5
 }
 
 NCharacterOpinion = {
     MAX_DUCHIES_BEFORE_PENALTY = 3
+    TOO_MANY_DUCHIES_OPINION = -10
 }
 
 NCulture = {
