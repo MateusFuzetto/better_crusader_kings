@@ -1,0 +1,15 @@
+building_warrior_lodges_requirement_terrain = {
+	OR = {
+		terrain = mountains
+		terrain = desert_mountains
+		terrain = hills
+	}
+}
+
+building_hillside_grazing_requirement_terrain = {
+	OR = {
+		terrain = mountains
+		terrain = desert_mountains
+		terrain = hills
+	}
+}
